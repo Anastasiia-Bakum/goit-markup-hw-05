@@ -523,6 +523,10 @@ address {
   border: none;
 }
 
+.subscrine-btn-icon {
+  fill: #ffffff;
+}
+
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: #404bbf;
@@ -542,6 +546,7 @@ address {
   color: #fff;
   padding: 8px 16px;
   background-color: #2e2f42;
+  outline: transparent;
 }
 .form-input::placeholder {
   color: #fff;
@@ -719,10 +724,51 @@ address {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  outline: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-submit-button:hover,
 .order-submit-button:focus {
   background-color: #404bbf;
+}
+
+.form-checkbox-wrapper {
+  margin-bottom: 24px;
+}
+
+.form-chechbox:checked + .form-chechbox-label .checkbox-span {
+  background-color: #404bbf;
+  border-color: #404bbf;
+  fill: #f4f4fd;
+}
+
+.form-chechbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.checkbox-span {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.privacy-policy-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.form-chechbox:focus + .form-chechbox-label .checkbox-span {
+  outline: 1px solid #404bbf;
 }
