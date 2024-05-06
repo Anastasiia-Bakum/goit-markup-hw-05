@@ -646,6 +646,10 @@ address {
   margin-bottom: 16px;
 }
 
+.form-field-wrapper {
+  margin-bottom: 8px;
+}
+
 .form-comment-wrapper {
   margin-bottom: 16px;
 }
